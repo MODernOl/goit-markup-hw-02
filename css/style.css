@@ -42,6 +42,9 @@ body {
   letter-spacing: 0.03em;
   color:var(--main-color-white)
 }
+.tittle{
+
+}
 .tittle-to {
   font-weight: 600;
   font-size: 36px;
@@ -79,7 +82,7 @@ body {
 .contacts:hover {
   color: var(--main-link-color);
 }
-.hero {
+.her.o {
   position: absolute;
   width: 1440px;
   background-color: #2e2f42;
