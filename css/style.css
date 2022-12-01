@@ -8,47 +8,62 @@
   --cloud-color: #f4f4fd;
 }
 body {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  color: var(--text-color);
-  background-color: var(--main-color-white);
+  color:var(--text-body);
+  background-color :(var)--main-color-white;
 }
-.nav-panel .logo {
-    font-family: 'Montserrat', sans-serif;
-  font-style: normal;
+.section1{
+  display: none;
+}
+.logo 
+{
+    font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   color: var(--main-link-color);
+  text-decoration: none;
 }
-
-.nav-panel .studio-black {
-    font-family: 'Montserrat', sans-serif;
-  font-style: normal;
+.logotype{
+  text-decoration: none;
+}
+.studio-black {
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   color: var(--main-shadows-color);
+  text-decoration: none;
 }
+
 .studio-white{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
-  color:var(--main-color-white)
+  color:var(--main-color-white);
+  text-decoration: none;
 }
 .tittle{
+  font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:var(--main-shadows-color)
 
+
+}
+.list{
+  list-style-type: none;
 }
 .tittle-to {
   font-weight: 600;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -57,22 +72,26 @@ body {
 .link {
   color: var(--main-shadows-color);
   font-weight: 600;
+  text-decoration: none;
 }
 .link:active {
   color: var(--main-link-color);
 }
+.link:hover {
+  color: var(--main-link-color);}
 .contacts {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .main-text {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -82,23 +101,20 @@ body {
 .contacts:hover {
   color: var(--main-link-color);
 }
-.her.o {
-  position: absolute;
+.hero {
   width: 1440px;
   background-color: #2e2f42;
 }
 .main-text {
   color: var(--main-color-white);
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
 }
 .main-butt {
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -116,10 +132,9 @@ body {
 .footer {
   background-color: var(--main-shadows-color);
   color: var(--accent-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .button {
