@@ -53,7 +53,7 @@ body {
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color:var(--main-shadows-color)
+color:var(--main-shadows-color) 
 
 
 }
@@ -149,4 +149,7 @@ color:var(--main-shadows-color)
   background-color: var(--main-link-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+}
+.buttons-menu{
+  background-color:#E5E5E5;
 }
